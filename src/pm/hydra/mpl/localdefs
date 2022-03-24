@@ -1,0 +1,7 @@
+#!/bin/sh
+# When configured within MPICH via PAC_CONFIG_SUBDIR, this file will be sourced
+# by the top-level configure.  This lets us propagate shell variable changes
+# back upstream.
+
+CPPFLAGS="  -I/home/rongon/research/mpi/mvapich/mvapich2-2.3.7/src/mpl/include -I/home/rongon/research/mpi/mvapich/mvapich2-2.3.7/src/mpl/include -I/home/rongon/research/mpi/mvapich/mvapich2-2.3.7/src/openpa/src -I/home/rongon/research/mpi/mvapich/mvapich2-2.3.7/src/openpa/src -D_REENTRANT -I/home/rongon/research/mpi/mvapich/mvapich2-2.3.7/src/mpi/romio/include"
+WRAPPER_LIBS="$WRAPPER_LIBS "
